@@ -1,0 +1,19 @@
+Package: roptions
+Title: Tools for Option Strategies and Valuation
+Version: 1.0.0
+Authors@R: 
+    person(given = "Anurag",
+           family = "Agrawal",
+           role = c("aut", "cre"),
+           email = "agrawalanurag1999@gmail.com",
+           comment = c(ORCID = "0000-0003-2272-8273"))
+Description: Collection of tools to develop options strategies and use Black-Scholes-Merten Option Pricing Model to value option contracts.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Imports: 
+    purrr,
+    ggplot2,
+    plotly
